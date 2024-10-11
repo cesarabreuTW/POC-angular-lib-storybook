@@ -11,6 +11,11 @@
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true,
     "isolatedModules": true,
+    "paths": {
+      "nebula-ui": [
+        "./dist/nebula-ui"
+      ]
+    },
     "esModuleInterop": true,
     "sourceMap": true,
     "declaration": false,
