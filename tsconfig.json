@@ -12,9 +12,9 @@
     "skipLibCheck": true,
     "isolatedModules": true,
     "paths": {
-      "nebula-ui": [
-        "./dist/nebula-ui"
-      ]
+      "@nebula-ui": ["./projects/nebula-ui"],
+      "@nebula-ui/*": ["./projects/nebula-ui/*"],
+
     },
     "esModuleInterop": true,
     "sourceMap": true,

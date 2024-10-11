@@ -1,4 +1,4 @@
 /*
  * Public API Surface of nebula-ui
  */
-export * from './lib/components/button/button.component';
+export * from '@nebula-ui/src/components/button';
