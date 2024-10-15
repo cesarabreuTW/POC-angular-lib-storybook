@@ -1,0 +1,126 @@
+"Cesar Abreu <cesar.abreu@thougtworks.com>,Fri Oct 11 16:59:53 2024 -0300	47b19d4f30401cc07f586c7365f6ebc82a497570,added changelog"
+21	0	CHANGELOG.md
+
+"Cesar Abreu <cesar.abreu@thougtworks.com>,Fri Oct 11 16:50:22 2024 -0300	bd5e269ee8f0f58a674adfbc59374588c5f78881,added nebula showcase"
+-	-	projects/nebula-ui-showcase/public/favicon.ico
+2	0	projects/nebula-ui-showcase/src/app/app.component.html
+0	0	projects/nebula-ui-showcase/src/app/app.component.scss
+29	0	projects/nebula-ui-showcase/src/app/app.component.spec.ts
+16	0	projects/nebula-ui-showcase/src/app/app.component.ts
+8	0	projects/nebula-ui-showcase/src/app/app.config.ts
+3	0	projects/nebula-ui-showcase/src/app/app.routes.ts
+13	0	projects/nebula-ui-showcase/src/index.html
+6	0	projects/nebula-ui-showcase/src/main.ts
+1	0	projects/nebula-ui-showcase/src/styles.scss
+15	0	projects/nebula-ui-showcase/tsconfig.app.json
+15	0	projects/nebula-ui-showcase/tsconfig.spec.json
+
+"Cesar Abreu <cesar.abreu@thougtworks.com>,Fri Oct 11 16:49:58 2024 -0300	c438d8ab5705cb643ed51bd84b9a2cc9e4348785,added nebula module to export all features for once"
+1	0	projects/nebula-ui/src/nebula-module/index.ts
+11	0	projects/nebula-ui/src/nebula-module/nebula-ui.module.ts
+6	0	projects/nebula-ui/src/nebula-module/ng-package.json
+1	0	projects/nebula-ui/src/nebula-module/public-api.ts
+4	1	projects/nebula-ui/src/public-api.ts
+
+"Cesar Abreu <cesar.abreu@thougtworks.com>,Fri Oct 11 16:48:34 2024 -0300	5e6b9ebd2862892aea6308e1522d39d5a211985a,added storybook"
+2	0	.gitignore
+126	1	angular.json
+5536	428	package-lock.json
+14	1	package.json
+17	0	projects/nebula-ui/.storybook/main.ts
+17	0	projects/nebula-ui/.storybook/preview.ts
+11	0	projects/nebula-ui/.storybook/tsconfig.json
+4	0	projects/nebula-ui/.storybook/typings.d.ts
+150	0	projects/nebula-ui/documentation.json
+5	0	projects/nebula-ui/src/stories/.eslintrc.json
+364	0	projects/nebula-ui/src/stories/Configure.mdx
+-	-	projects/nebula-ui/src/stories/assets/accessibility.png
+1	0	projects/nebula-ui/src/stories/assets/accessibility.svg
+-	-	projects/nebula-ui/src/stories/assets/addon-library.png
+-	-	projects/nebula-ui/src/stories/assets/assets.png
+-	-	projects/nebula-ui/src/stories/assets/avif-test-image.avif
+-	-	projects/nebula-ui/src/stories/assets/context.png
+1	0	projects/nebula-ui/src/stories/assets/discord.svg
+-	-	projects/nebula-ui/src/stories/assets/docs.png
+-	-	projects/nebula-ui/src/stories/assets/figma-plugin.png
+1	0	projects/nebula-ui/src/stories/assets/github.svg
+-	-	projects/nebula-ui/src/stories/assets/share.png
+-	-	projects/nebula-ui/src/stories/assets/styling.png
+-	-	projects/nebula-ui/src/stories/assets/testing.png
+-	-	projects/nebula-ui/src/stories/assets/theming.png
+1	0	projects/nebula-ui/src/stories/assets/tutorials.svg
+1	0	projects/nebula-ui/src/stories/assets/youtube.svg
+33	0	projects/nebula-ui/src/stories/button.stories.ts
+
+"Cesar Abreu <cesar.abreu@thougtworks.com>,Fri Oct 11 16:44:56 2024 -0300	6e9a5c5365d56ee751873e6dea6642de1a410afe,fixed ng-packagr url path"
+1	1	projects/nebula-ui/src/components/button/ng-package.json
+1	1	projects/nebula-ui/src/components/chip/ng-package.json
+
+"Cesar Abreu <cesarabreu.thoughtworks@latam.com>,Fri Oct 11 15:36:09 2024 -0300	4368745f7589707f0885fa08892bc26b9eb509cb,added new chip component with code splitting"
+0	0	projects/nebula-ui/src/components/chip/chip.component.css
+1	0	projects/nebula-ui/src/components/chip/chip.component.html
+23	0	projects/nebula-ui/src/components/chip/chip.component.spec.ts
+12	0	projects/nebula-ui/src/components/chip/chip.component.ts
+1	0	projects/nebula-ui/src/components/chip/index.ts
+6	0	projects/nebula-ui/src/components/chip/ng-package.json
+1	0	projects/nebula-ui/src/components/chip/public-api.ts
+2	1	projects/nebula-ui/src/public-api.ts
+
+"Cesar Abreu <cesarabreu.thoughtworks@latam.com>,Fri Oct 11 15:34:44 2024 -0300	8c9fe54acd27fa61bd3182136fa166916015356d,changed library name"
+1	1	projects/nebula-ui/package.json
+
+"Cesar Abreu <cesarabreu.thoughtworks@latam.com>,Fri Oct 11 15:34:04 2024 -0300	9bc10c8fc3fad261377ecbc3fce25098ecb60707,removed lib folder from project tree and create path aliases"
+0	0	projects/nebula-ui/src/{lib => }/components/button/button.component.css
+0	0	projects/nebula-ui/src/{lib => }/components/button/button.component.html
+0	0	projects/nebula-ui/src/{lib => }/components/button/button.component.spec.ts
+0	0	projects/nebula-ui/src/{lib => }/components/button/button.component.ts
+0	0	projects/nebula-ui/src/{lib => }/components/button/index.ts
+6	0	projects/nebula-ui/src/components/button/ng-package.json
+0	0	projects/nebula-ui/src/{lib => }/components/button/public-api.ts
+1	1	projects/nebula-ui/src/public-api.ts
+3	3	tsconfig.json
+
+"Cesar Abreu <cesarabreu.thoughtworks@latam.com>,Fri Oct 11 14:21:35 2024 -0300	88b702d69ee3fd3af968e275d4d2bccc0957ff72,added new button component with code splitting"
+5	0	projects/nebula-ui/src/lib/components/button/button.component.css
+1	0	projects/nebula-ui/src/lib/components/button/button.component.html
+23	0	projects/nebula-ui/src/lib/components/button/button.component.spec.ts
+12	0	projects/nebula-ui/src/lib/components/button/button.component.ts
+1	0	projects/nebula-ui/src/lib/components/button/index.ts
+1	0	projects/nebula-ui/src/lib/components/button/public-api.ts
+1	0	projects/nebula-ui/src/public-api.ts
+
+"Cesar Abreu <cesarabreu.thoughtworks@latam.com>,Fri Oct 11 13:55:52 2024 -0300	2bc94bc2d9d39e9c86af4627e993319041230777,removed files from initial setup"
+0	23	projects/nebula-ui/src/lib/nebula-ui.component.spec.ts
+0	16	projects/nebula-ui/src/lib/nebula-ui.component.ts
+0	16	projects/nebula-ui/src/lib/nebula-ui.service.spec.ts
+0	9	projects/nebula-ui/src/lib/nebula-ui.service.ts
+0	3	projects/nebula-ui/src/public-api.ts
+
+"Cesar Abreu <cesarabreu.thoughtworks@latam.com>,Fri Oct 11 13:53:37 2024 -0300	a9ff586193a43801cfc70d4ff358fadd5c5d9192,initial setup for nebula library"
+36	0	angular.json
+11231	3511	package-lock.json
+2	0	package.json
+24	0	projects/nebula-ui/README.md
+7	0	projects/nebula-ui/ng-package.json
+12	0	projects/nebula-ui/package.json
+23	0	projects/nebula-ui/src/lib/nebula-ui.component.spec.ts
+16	0	projects/nebula-ui/src/lib/nebula-ui.component.ts
+16	0	projects/nebula-ui/src/lib/nebula-ui.service.spec.ts
+9	0	projects/nebula-ui/src/lib/nebula-ui.service.ts
+6	0	projects/nebula-ui/src/public-api.ts
+15	0	projects/nebula-ui/tsconfig.lib.json
+11	0	projects/nebula-ui/tsconfig.lib.prod.json
+15	0	projects/nebula-ui/tsconfig.spec.json
+5	0	tsconfig.json
+
+"Cesar Abreu <cesarabreu.thoughtworks@latam.com>,Fri Oct 11 13:50:52 2024 -0300	843b169f80dd0413154efb1c73d367149e29a6a7,initial commit"
+16	0	.editorconfig
+42	0	.gitignore
+4	0	.vscode/extensions.json
+20	0	.vscode/launch.json
+42	0	.vscode/tasks.json
+27	0	README.md
+7	0	angular.json
+6130	0	package-lock.json
+37	0	package.json
+33	0	tsconfig.json

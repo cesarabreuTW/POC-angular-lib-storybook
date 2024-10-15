@@ -1,0 +1,31 @@
+{
+  "scopes": [
+    "projects/nebula-ui/src/components/button",
+    "projects/nebula-ui/src/components/chip",
+    "projects/nebula-ui-showcase/src/app"
+  ],
+  "groups": [
+    "projects/nebula-ui/src/components",
+    "projects/nebula-ui/src",
+    "projects/nebula-ui",
+    "projects/nebula-ui-showcase/src",
+    "projects/nebula-ui-showcase",
+    "projects"
+  ],
+  "entries": [],
+  "filter": {
+    "files": [],
+    "logs": []
+  },
+  "aliases": {},
+  "teams": {
+    "example-team-a": [
+      "John Doe",
+      "Jane Doe"
+    ],
+    "example-team-b": [
+      "Max Muster",
+      "Susi Sorglos"
+    ]
+  }
+}
